@@ -1,4 +1,5 @@
 import { component$ } from "@builder.io/qwik";
+import { Image } from "@unpic/qwik";
 
 const coverImage =
   "https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80";
@@ -13,12 +14,7 @@ export default component$(() => {
           <div class="mx-auto text-center basis-1/2 lg:text-left md:pb-16 pb-12 lg:pb-0">
             <>
               <h1 class="text-5xl md:text-[3.48rem] font-bold leading-tighter tracking-tighter mb-4 font-heading px-4 md:px-0">
-                <span class="hidden lg:inline">本站基于</span>{" "}
-                <span class="text-[#039de1]">Qwik</span> +{" "}
-                <span class="sm:whitespace-nowrap text-[#039de1]">
-                  Tailwind CSS
-                </span>{" "}
-                <span class="hidden lg:inline">构建</span>
+                <span class="text-[#039de1]">Free Soul</span>
               </h1>
               <div class="max-w-3xl mx-auto">
                 {/* <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
@@ -54,13 +50,14 @@ export default component$(() => {
           </div>
           <div class="basis-1/2">
             <div class="relative m-auto max-w-5xl">
-              <img
+              <Image
                 src={coverImage}
-                class="mx-auto mt-4 mb-6 max-w-full bg-gray-400 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
-                sizes="(max-width: 900px) 400px, 900px"
-                loading="eager"
-                width={400}
-                height={480}
+                layout="constrained"
+                width={493}
+                height={616}
+                alt="Qwind Hero Image (Cool dog)"
+                class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
+                breakpoints={[320, 480, 640, 1024]}
               />
             </div>
           </div>
