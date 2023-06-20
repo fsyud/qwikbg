@@ -114,13 +114,13 @@ export default component$(() => {
             ))}
           </ul>
 
-          <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
+          {/* <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
             Made by{" "}
             <a class="text-secondary-700 hover:underline dark:text-gray-200" href="https://github.com/ligdy7" target="_blank">
               {" "}
               fsyud
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
