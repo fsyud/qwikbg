@@ -1,6 +1,6 @@
 {
-  "name": "qwind",
-  "description": "A template to make your website using Qwik + Tailwind CSS.",
+  "name": "qwikbg",
+  "description": "using Qwik + Tailwind CSS.",
   "version": "0.109.0",
   "private": true,
   "scripts": {

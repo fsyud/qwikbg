@@ -1,19 +1,25 @@
 import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 
-const coverImage = "https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80";
+const coverImage =
+  "https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80";
 
 export default component$(() => {
   return (
-    <section class={`bg-gradient-to-b md:bg-gradient-to-r from-white via-purple-50 to-sky-100 dark:bg-none mt-[-72px]`}>
+    <section
+      class={`bg-gradient-to-b md:bg-gradient-to-r from-white via-purple-50 to-sky-100 dark:bg-none mt-[-72px]`}
+    >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:flex lg:h-screen 2xl:h-auto pt-[72px]">
-        <div class="py-12 md:py-20 2xl:min-h-0 lg:flex lg:gap-8 lg:items-center lg:py-16">
+        <div class="py-12 flex flex-row md:py-20 2xl:min-h-0 lg:flex lg:gap-8 lg:items-center lg:py-16">
           <div class="mx-auto text-center basis-1/2 lg:text-left md:pb-16 pb-12 lg:pb-0">
             <div>
               <h1 class="text-5xl md:text-[3.48rem] font-bold leading-tighter tracking-tighter mb-4 font-heading px-4 md:px-0">
-                Free template for <br class="hidden lg:block" />{" "}
-                <span class="hidden lg:inline">create a website using </span> <span class="text-[#039de1]">Qwik</span> +{" "}
-                <span class="sm:whitespace-nowrap text-[#039de1]">Tailwind CSS</span>
+                <span class="hidden lg:inline">本站基于</span>{" "}
+                <span class="text-[#039de1]">Qwik</span> +{" "}
+                <span class="sm:whitespace-nowrap text-[#039de1]">
+                  Tailwind CSS
+                </span>{" "}
+                <span class="hidden lg:inline">构建</span>
               </h1>
               <div class="max-w-3xl mx-auto">
                 {/* <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
@@ -35,11 +41,13 @@ export default component$(() => {
                       target="_blank"
                       rel="noopener"
                     >
-                    GitHub
+                      GitHub
                     </a>
                   </div>
                   <div class="flex w-full sm:w-auto">
-                    <button class="btn w-full bg-gray-50 dark:bg-transparent">更多</button>
+                    <button class="btn w-full bg-gray-50 dark:bg-transparent">
+                      更多
+                    </button>
                   </div>
                 </div>
               </div>

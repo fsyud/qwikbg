@@ -82,7 +82,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Blog — Qwind",
+  title: "Blog",
   meta: [
     {
       name: "description",

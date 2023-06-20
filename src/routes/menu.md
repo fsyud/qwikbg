@@ -2,8 +2,6 @@
 
 ## Pages
 
-- [Services](#)
-- [Porfolio](#)
-- [About us](#)
-
+- [Photo](/photo)
+- [About me](/me)
 ## [Blog](/blog)

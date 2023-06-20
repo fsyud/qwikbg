@@ -1,12 +1,12 @@
 export const SITE = {
-  name: "Qwind",
+  name: "fsyud",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "Free Soul",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "风与灵魂一样，来去自由，浩浩荡荡，无阻无碍，席卷天地。",
 
-  origin: "https://qwind.pages.dev",
+  origin: "https://github.com/ligdy7/qwikbg",
   basePathname: "/",
   trailingSlash: true,
 };
