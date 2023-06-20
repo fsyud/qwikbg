@@ -1,9 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 
-const coverImage =
-  "https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80";
-
 export default component$(() => {
   return (
     <section
@@ -51,13 +48,12 @@ export default component$(() => {
           <div class="basis-1/2">
             <div class="relative m-auto max-w-5xl">
               <Image
-                src={coverImage}
-                layout="constrained"
-                width={493}
-                height={616}
-                alt="Qwind Hero Image (Cool dog)"
-                class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
-                breakpoints={[320, 480, 640, 1024]}
+                src="/images/blog/home.jpg"
+                class="mx-auto mt-4 mb-6 max-w-full bg-gray-400 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
+                sizes="(max-width: 900px) 400px, 900px"
+                loading="eager"
+                width={463}
+                height={480}
               />
             </div>
           </div>

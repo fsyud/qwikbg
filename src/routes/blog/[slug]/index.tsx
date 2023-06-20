@@ -1,5 +1,6 @@
 import { component$, Resource } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
+import { Image } from "@unpic/qwik";
 
 import type { DocumentHead, StaticGenerateHandler } from "@builder.io/qwik-city";
 import type { Post } from "~/types";
@@ -45,7 +46,7 @@ export default component$(() => {
                 {post.title}
               </h1>
               {post.image ? (
-                <img
+                <Image
                   src={post.image}
                   class="mx-auto mt-4 mb-6 max-w-full bg-gray-400 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
                   sizes="(max-width: 900px) 400px, 900px"
