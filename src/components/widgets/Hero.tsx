@@ -4,7 +4,7 @@ import { Image } from "@unpic/qwik";
 export default component$(() => {
   return (
     <section
-      class={`bg-gradient-to-b md:bg-gradient-to-r from-white via-purple-50 to-sky-100 dark:bg-none mt-[-72px]`}
+      class={`bg-gradient-to-b md:bg-gradient-to-r from-white via-purple-50 to-sky-100 dark:bg-none mt-[-94px]`}
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:flex lg:h-screen 2xl:h-auto pt-[72px]">
         <div class="py-12 flex flex-row md:py-20 2xl:min-h-0 lg:flex lg:gap-8 lg:items-center lg:py-16">
@@ -25,7 +25,7 @@ export default component$(() => {
                     Dark Mode, Great Page Speed, image optimization, sitemap generation and more.
                   </span>
                 </p> */}
-                <div class="flex flex-col flex-nowrap gap-4 m-auto max-w-xs sm:flex-row sm:justify-center sm:max-w-md lg:justify-start lg:m-0 lg:max-w-7xl">
+                {/* <div class="flex flex-col flex-nowrap gap-4 m-auto max-w-xs sm:flex-row sm:justify-center sm:max-w-md lg:justify-start lg:m-0 lg:max-w-7xl">
                   <div class="flex w-full sm:w-auto">
                     <a
                       class="btn btn-primary sm:mb-0 w-full"
@@ -41,7 +41,7 @@ export default component$(() => {
                       更多
                     </button>
                   </div>
-                </div>
+                </div> */}
               </div>
             </>
           </div>
