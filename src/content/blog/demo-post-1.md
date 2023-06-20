@@ -1,8 +1,8 @@
 ---
-publishDate: 2023-02-02T00:00:00Z
+publishDate: 2023-02-02
 title: Nulla amet fugiat qui minim deserunt enim eu
 excerpt: Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat
-image: /images/placeholder-1024x640.png
+image: /images/blog/home.jpg
 tags:
   - markdown
   - blog
