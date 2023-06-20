@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import { Image } from "@unpic/qwik";
 
 const coverImage =
   "https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80";
@@ -12,7 +11,7 @@ export default component$(() => {
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:flex lg:h-screen 2xl:h-auto pt-[72px]">
         <div class="py-12 flex flex-row md:py-20 2xl:min-h-0 lg:flex lg:gap-8 lg:items-center lg:py-16">
           <div class="mx-auto text-center basis-1/2 lg:text-left md:pb-16 pb-12 lg:pb-0">
-            <div>
+            <>
               <h1 class="text-5xl md:text-[3.48rem] font-bold leading-tighter tracking-tighter mb-4 font-heading px-4 md:px-0">
                 <span class="hidden lg:inline">本站基于</span>{" "}
                 <span class="text-[#039de1]">Qwik</span> +{" "}
@@ -51,18 +50,17 @@ export default component$(() => {
                   </div>
                 </div>
               </div>
-            </div>
+            </>
           </div>
           <div class="basis-1/2">
             <div class="relative m-auto max-w-5xl">
-              <Image
+              <img
                 src={coverImage}
-                layout="constrained"
-                width={493}
-                height={616}
-                alt="Qwind Hero Image (Cool dog)"
-                class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
-                breakpoints={[320, 480, 640, 1024]}
+                class="mx-auto mt-4 mb-6 max-w-full bg-gray-400 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
+                sizes="(max-width: 900px) 400px, 900px"
+                loading="eager"
+                width={400}
+                height={480}
               />
             </div>
           </div>
