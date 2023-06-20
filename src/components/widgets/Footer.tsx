@@ -2,57 +2,57 @@ import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 
 import { IconTwitter } from "~/components/icons/IconTwitter"
-import { IconInstagram } from "~/components/icons/IconInstagram"
-import { IconFacebook } from "~/components/icons/IconFacebook"
+// import { IconInstagram } from "~/components/icons/IconInstagram"
+// import { IconFacebook } from "~/components/icons/IconFacebook"
 import { IconGithub } from "~/components/icons/IconGithub"
 
 export default component$(() => {
-  const links = [
-    {
-      title: "Product",
-      items: [
-        { title: "Features", href: "#" },
-        { title: "Security", href: "#" },
-        { title: "Team", href: "#" },
-        { title: "Enterprise", href: "#" },
-        { title: "Customer stories", href: "#" },
-        { title: "Pricing", href: "#" },
-        { title: "Resources", href: "#" },
-      ],
-    },
-    {
-      title: "Platform",
-      items: [
-        { title: "Developer API", href: "#" },
-        { title: "Partners", href: "#" },
-        { title: "Atom", href: "#" },
-        { title: "Electron", href: "#" },
-        { title: "Qwind Desktop", href: "#" },
-      ],
-    },
-    {
-      title: "Support",
-      items: [
-        { title: "Docs", href: "#" },
-        { title: "Community Forum", href: "#" },
-        { title: "Professional Services", href: "#" },
-        { title: "Skills", href: "#" },
-        { title: "Status", href: "#" },
-      ],
-    },
-    {
-      title: "Company",
-      items: [
-        { title: "About", href: "#" },
-        { title: "Blog", href: "#" },
-        { title: "Careers", href: "#" },
-        { title: "Press", href: "#" },
-        { title: "Inclusion", href: "#" },
-        { title: "Social Impact", href: "#" },
-        { title: "Shop", href: "#" },
-      ],
-    },
-  ];
+  // const links = [
+  //   {
+  //     title: "Product",
+  //     items: [
+  //       { title: "Features", href: "#" },
+  //       { title: "Security", href: "#" },
+  //       { title: "Team", href: "#" },
+  //       { title: "Enterprise", href: "#" },
+  //       { title: "Customer stories", href: "#" },
+  //       { title: "Pricing", href: "#" },
+  //       { title: "Resources", href: "#" },
+  //     ],
+  //   },
+  //   {
+  //     title: "Platform",
+  //     items: [
+  //       { title: "Developer API", href: "#" },
+  //       { title: "Partners", href: "#" },
+  //       { title: "Atom", href: "#" },
+  //       { title: "Electron", href: "#" },
+  //       { title: "Qwind Desktop", href: "#" },
+  //     ],
+  //   },
+  //   {
+  //     title: "Support",
+  //     items: [
+  //       { title: "Docs", href: "#" },
+  //       { title: "Community Forum", href: "#" },
+  //       { title: "Professional Services", href: "#" },
+  //       { title: "Skills", href: "#" },
+  //       { title: "Status", href: "#" },
+  //     ],
+  //   },
+  //   {
+  //     title: "Company",
+  //     items: [
+  //       { title: "About", href: "#" },
+  //       { title: "Blog", href: "#" },
+  //       { title: "Careers", href: "#" },
+  //       { title: "Press", href: "#" },
+  //       { title: "Inclusion", href: "#" },
+  //       { title: "Social Impact", href: "#" },
+  //       { title: "Shop", href: "#" },
+  //     ],
+  //   },
+  // ];
 
   const social = [
     { label: "Twitter", icon: IconTwitter, href: "https://twitter.com/ligdyu" },
