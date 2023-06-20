@@ -13,6 +13,6 @@ export default component$(() => (
       alt="Qwind Logo"
       loading="lazy"
     />
-    Qwind
+    FSYUD
   </span>
 ));

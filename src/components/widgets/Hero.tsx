@@ -16,7 +16,7 @@ export default component$(() => {
                 <span class="sm:whitespace-nowrap text-[#039de1]">Tailwind CSS</span>
               </h1>
               <div class="max-w-3xl mx-auto">
-                <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
+                {/* <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
                   <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
                     Qwind
                   </span>{" "}
@@ -26,20 +26,20 @@ export default component$(() => {
                   <span class="hidden md:inline">
                     Dark Mode, Great Page Speed, image optimization, sitemap generation and more.
                   </span>
-                </p>
+                </p> */}
                 <div class="flex flex-col flex-nowrap gap-4 m-auto max-w-xs sm:flex-row sm:justify-center sm:max-w-md lg:justify-start lg:m-0 lg:max-w-7xl">
                   <div class="flex w-full sm:w-auto">
                     <a
                       class="btn btn-primary sm:mb-0 w-full"
-                      href="https://github.com/onwidget/qwind"
+                      href="https://github.com/ligdy7/qwikbg"
                       target="_blank"
                       rel="noopener"
                     >
-                      Get template
+                    GitHub
                     </a>
                   </div>
                   <div class="flex w-full sm:w-auto">
-                    <button class="btn w-full bg-gray-50 dark:bg-transparent">Learn more</button>
+                    <button class="btn w-full bg-gray-50 dark:bg-transparent">更多</button>
                   </div>
                 </div>
               </div>
