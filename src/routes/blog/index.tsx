@@ -1,6 +1,7 @@
 import { component$, useStore, useTask$ } from "@builder.io/qwik";
 import { isServer } from "@builder.io/qwik/build";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { Image } from "@unpic/qwik";
 
 import type { Post } from "~/types";
 import { fetchPosts } from "~/utils/posts";
@@ -34,11 +35,12 @@ export default component$(() => {
                   <div class="relative h-0 pb-[56.25%] md:pb-[75%] md:h-80 lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg">
                     {post.image && (
                       // eslint-disable-next-line qwik/jsx-img
-                      <img
+                      <Image
                         src={post.image}
                         class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
                         sizes="(max-width: 900px) 400px, 900px"
                         alt={post.title}
+                        width={400}
                       />
                     )}
                   </div>

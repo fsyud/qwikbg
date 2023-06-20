@@ -2,7 +2,7 @@
 publishDate: 2023-02-02
 title: Bookmarks-quick-search
 excerpt: 定制私人浏览器插件，已提供书签插件快速搜索功能，以及背景添加事项
-image: /images/blog/home.jpg
+image: /images/blog/b-1.png
 tags:
   - markdown
   - blog

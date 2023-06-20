@@ -1,4 +1,6 @@
 import { component$ } from "@builder.io/qwik";
+import type { DocumentHead } from "@builder.io/qwik-city";
+import { SITE } from "~/config.mjs";
 
 export default component$(() => {
   return (
@@ -7,3 +9,13 @@ export default component$(() => {
     </section>
   );
 });
+
+export const head: DocumentHead = {
+  title: "photo",
+  meta: [
+    {
+      name: "description",
+      content: SITE.description,
+    },
+  ],
+};
