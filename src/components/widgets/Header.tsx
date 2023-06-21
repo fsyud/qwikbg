@@ -91,23 +91,23 @@ export default component$(() => {
             ) : null}
           </nav>
 
-          <div class="md:flex md:items-center md:justify-between">
-            <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
-              {social.map(({ label, href, icon: Icon }, index) => (
-                <li key={index}>
-                  <Link
-                    class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-                    aria-label={label}
-                    title={label}
-                    href={href}
-                  >
-                    {Icon && <Icon />}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
           <div class="hidden items-center md:flex">
+            <div class="md:flex md:items-center md:justify-between">
+              <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
+                {social.map(({ label, href, icon: Icon }, index) => (
+                  <li key={index}>
+                    <Link
+                      class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                      aria-label={label}
+                      title={label}
+                      href={href}
+                    >
+                      {Icon && <Icon />}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <ToggleTheme iconClass="w-6 h-6" />
             {/* <a
               href="https://github.com/onwidget/qwind"
