@@ -1,9 +1,11 @@
 import { component$, useStore } from "@builder.io/qwik";
-import { useContent } from "@builder.io/qwik-city";
+import { useContent, Link } from "@builder.io/qwik-city";
 
 import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
+import { IconTwitter } from "~/components/icons/IconTwitter";
+import { IconGithub } from "~/components/icons/IconGithub";
 
 export default component$(() => {
   const store = useStore({
@@ -11,6 +13,15 @@ export default component$(() => {
   });
 
   const { menu } = useContent();
+
+  const social = [
+    { label: "Twitter", icon: IconTwitter, href: "https://twitter.com/ligdyu" },
+    {
+      label: "Github",
+      icon: IconGithub,
+      href: "https://github.com/ligdy7",
+    },
+  ];
 
   return (
     <header
@@ -28,7 +39,7 @@ export default component$(() => {
         }
       }}
     >
-      <div class="py-3 px-3 mx-auto w-full md:flex md:justify-between max-w-7xl md:px-4">
+      <div class="px-3 mx-auto w-full md:flex md:justify-between max-w-7xl md:px-4">
         <div class="flex justify-between">
           <a class="flex items-center py-2.5" href={"/"}>
             <Logo />
@@ -80,6 +91,22 @@ export default component$(() => {
             ) : null}
           </nav>
 
+          <div class="md:flex md:items-center md:justify-between">
+            <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
+              {social.map(({ label, href, icon: Icon }, index) => (
+                <li key={index}>
+                  <Link
+                    class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                    aria-label={label}
+                    title={label}
+                    href={href}
+                  >
+                    {Icon && <Icon />}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
           <div class="hidden items-center md:flex">
             <ToggleTheme iconClass="w-6 h-6" />
             {/* <a

@@ -4,9 +4,9 @@ import { Image } from "@unpic/qwik";
 export default component$(() => {
   return (
     <section
-      class={`bg-gradient-to-b md:bg-gradient-to-r from-white via-purple-100 to-sky-300 dark:bg-none mt-[-100px]`}
+      class={`bg-gradient-to-b md:bg-gradient-to-r from-white via-purple-100 to-sky-300 dark:bg-none mt-[-76px]`}
     >
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:flex lg:h-screen 2xl:h-auto pt-[72px]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:flex h-screen pt-[72px]">
         <div class="py-12 flex flex-row md:py-20 2xl:min-h-0 lg:flex lg:gap-8 lg:items-center lg:py-16">
           <div class="mx-auto text-center basis-1/2 lg:text-left md:pb-16 pb-12 lg:pb-0">
             <>
