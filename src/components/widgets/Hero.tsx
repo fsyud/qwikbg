@@ -4,14 +4,14 @@ import { Image } from "@unpic/qwik";
 export default component$(() => {
   return (
     <section
-      class={`bg-gradient-to-b md:bg-gradient-to-r from-white via-purple-50 to-sky-100 dark:bg-none mt-[-94px]`}
+      class={`bg-gradient-to-b md:bg-gradient-to-r from-white via-purple-100 to-sky-300 dark:bg-none mt-[-100px]`}
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:flex lg:h-screen 2xl:h-auto pt-[72px]">
         <div class="py-12 flex flex-row md:py-20 2xl:min-h-0 lg:flex lg:gap-8 lg:items-center lg:py-16">
           <div class="mx-auto text-center basis-1/2 lg:text-left md:pb-16 pb-12 lg:pb-0">
             <>
               <h1 class="text-5xl md:text-[3.48rem] font-bold leading-tighter tracking-tighter mb-4 font-heading px-4 md:px-0">
-                <span class="text-[#039de1]">Free Soul</span>
+                <span class="dark:text-[#039de1] font-mono">Free Soul</span>
               </h1>
               <div class="max-w-3xl mx-auto">
                 {/* <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
