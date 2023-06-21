@@ -12,44 +12,24 @@ export default component$(() => {
   //     title: "Product",
   //     items: [
   //       { title: "Features", href: "#" },
-  //       { title: "Security", href: "#" },
-  //       { title: "Team", href: "#" },
-  //       { title: "Enterprise", href: "#" },
-  //       { title: "Customer stories", href: "#" },
-  //       { title: "Pricing", href: "#" },
-  //       { title: "Resources", href: "#" },
   //     ],
   //   },
   //   {
   //     title: "Platform",
   //     items: [
   //       { title: "Developer API", href: "#" },
-  //       { title: "Partners", href: "#" },
-  //       { title: "Atom", href: "#" },
-  //       { title: "Electron", href: "#" },
-  //       { title: "Qwind Desktop", href: "#" },
   //     ],
   //   },
   //   {
   //     title: "Support",
   //     items: [
   //       { title: "Docs", href: "#" },
-  //       { title: "Community Forum", href: "#" },
-  //       { title: "Professional Services", href: "#" },
-  //       { title: "Skills", href: "#" },
-  //       { title: "Status", href: "#" },
   //     ],
   //   },
   //   {
   //     title: "Company",
   //     items: [
   //       { title: "About", href: "#" },
-  //       { title: "Blog", href: "#" },
-  //       { title: "Careers", href: "#" },
-  //       { title: "Press", href: "#" },
-  //       { title: "Inclusion", href: "#" },
-  //       { title: "Social Impact", href: "#" },
-  //       { title: "Shop", href: "#" },
   //     ],
   //   },
   // ];
@@ -64,7 +44,7 @@ export default component$(() => {
   ];
 
   return (
-    <footer class="border-t border-gray-200 dark:border-slate-800">
+    <footer class="border-t border-gray-200 dark:border-slate-800 ">
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         {/* <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
           <div class="col-span-12 lg:col-span-4 pr-8">
