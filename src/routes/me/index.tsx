@@ -1,10 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Image } from "@unpic/qwik";
 import { SITE } from "~/config.mjs";
-
-import analyzeImage from "~/assets/images/analyze.png";
-import analyzeImage2 from "~/assets/images/analyze2.png";
 
 export default component$(() => {
   return (
@@ -40,32 +36,7 @@ export default component$(() => {
             <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2 text-[#039de1]">
               qwik
             </span>{" "}
-            构建完成，性能如下:
-          </div>
-
-          <div class="text-gray-400">
-            (基于 <a href="https://pagespeed.web.dev/">pagespeed</a>测试)
-          </div>
-
-          <div>
-            <Image
-              src={analyzeImage}
-              class="mx-auto mt-4 mb-6 max-w-full bg-gray-400 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
-              sizes="(max-width: 900px) 400px, 900px"
-              loading="eager"
-              width={700}
-              height={480}
-            />
-          </div>
-          <div>
-            <Image
-              src={analyzeImage2}
-              class="mx-auto mt-4 mb-6 max-w-full bg-gray-400 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
-              sizes="(max-width: 900px) 400px, 900px"
-              loading="eager"
-              width={700}
-              height={480}
-            />
+            构建完成
           </div>
         </div>
       </div>
