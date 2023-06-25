@@ -51,7 +51,7 @@ export default component$(() => {
         </div>
         <div class="md:self-center flex items-center md:mb-0 ml-4">
           <nav
-            class="items-center w-full md:w-auto hidden md:flex text-gray-500 dark:text-slate-200 h-[calc(100vh-100px)] md:h-auto overflow-y-auto md:overflow-visible pr-4"
+            class="items-center w-full md:w-auto hidden md:flex text-gray-700 dark:text-slate-200 h-[calc(100vh-100px)] md:h-auto overflow-y-auto md:overflow-visible pr-4"
             aria-label="Main navigation"
           >
             {menu && menu.items ? (
@@ -97,7 +97,7 @@ export default component$(() => {
                 {social.map(({ label, href, icon: Icon }, index) => (
                   <li key={index}>
                     <Link
-                      class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                      class="text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
                       aria-label={label}
                       title={label}
                       href={href}
