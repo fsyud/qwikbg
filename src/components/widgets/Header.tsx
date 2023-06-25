@@ -39,7 +39,7 @@ export default component$(() => {
         }
       }}
     >
-      <div class="px-3 mx-auto w-full md:flex md:justify-between max-w-7xl md:px-4">
+      <div class="px-3 mx-auto w-full md:flex md:justify-between max-w-7xl md:px-4 h-[65px]">
         <div class="flex justify-between">
           <a class="flex items-center py-2.5" href={"/"}>
             <Logo />
@@ -55,7 +55,7 @@ export default component$(() => {
             aria-label="Main navigation"
           >
             {menu && menu.items ? (
-              <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-lg">
+              <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl">
                 {menu.items?.map((item, key) => (
                   <li key={key} class={`${item.items ? "dropdown" : ""}`}>
                     {item.href ? (
