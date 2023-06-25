@@ -38,7 +38,6 @@ export default component$(() => {
         <link rel="manifest" href="/manifest.json" />
         <QwikPartytown forward={["dataLayer.push"]} />
         <script defer async dangerouslySetInnerHTML={analyticsScript}></script>
-        <script></script>
         <RouterHead />
         <DarkThemeLauncher />
       </head>
