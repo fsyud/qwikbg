@@ -37,7 +37,7 @@ export default component$(() => {
                       // eslint-disable-next-line qwik/jsx-img
                       <Image
                         src={post.image}
-                        class="absolute inset-0 object-cover w-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+                        class="absolute inset-0 object-cover w-full mb-6 rounded shadow-lg"
                         sizes="(max-width: 900px) 400px, 900px"
                         alt={post.title}
                         width={400}
