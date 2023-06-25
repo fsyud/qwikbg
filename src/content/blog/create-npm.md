@@ -11,7 +11,7 @@ tags:
 
 ## 设置模板项目
 
-首先，我们需要为包模板创建一个文件夹并运行 yarn init 或者 npm init。
+> 首先，我们需要为包模板创建一个文件夹并运行 yarn init 或者 npm init。
 
 ```
 $ mkdir mypackagetemplate
@@ -147,7 +147,7 @@ export default {
 }
 ```
 
-## 添加 ESLint 是
+## 添加 ESLint
 
 在这一步中，我们将设置 eslint 和 Jest。
 
