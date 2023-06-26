@@ -48,7 +48,7 @@ export default component$(() => {
             <div class="relative m-auto max-w-5xl">
               <Image
                 src="/images/bg.jpg"
-                class="mx-auto mt-4 mb-6 max-w-full"
+                class="mx-auto mt-4 mb-6 max-w-full rounded-3xl"
                 sizes="(max-width: 900px) 400px, 900px"
                 loading="eager"
                 width={400}
