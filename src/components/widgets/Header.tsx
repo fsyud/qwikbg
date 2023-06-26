@@ -1,5 +1,5 @@
 import { component$, useStore } from "@builder.io/qwik";
-import { useContent, Link } from "@builder.io/qwik-city";
+import { useContent } from "@builder.io/qwik-city";
 
 import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
@@ -96,14 +96,15 @@ export default component$(() => {
               <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
                 {social.map(({ label, href, icon: Icon }, index) => (
                   <li key={index}>
-                    <Link
+                    <a
                       class="text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
                       aria-label={label}
                       title={label}
                       href={href}
+                      target="_blank"
                     >
                       {Icon && <Icon />}
-                    </Link>
+                    </a>
                   </li>
                 ))}
               </ul>
