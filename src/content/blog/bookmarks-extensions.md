@@ -11,7 +11,17 @@ tags:
 
 # 背景
 
-书签太多,再次查找书签的时候要经历点击书签查找文件再去慢慢搜索。或者在浏览器里进入书签管理器，进行搜索。不想浪费宝贵的时间。于是便有了这个想法，浏览器背景设计成自己喜欢的内容也能让心情变得愉快
+书签太多,再次查找书签的时候要经历点击书签查找文件再去慢慢搜索。或者在浏览器里进入书签管理器，进行搜索。定制属于个人独一无二的浏览器插件，在这个模版尽情的去尝试吧！
+
+**模板提供丰富的api等待您去开发**
+
+- background
+- content
+- devtools
+- newtab
+- options
+- panel
+- popup
 
 **后续还会加上便签的功能，请期待！**
 
@@ -56,7 +66,8 @@ export default manifest;
 ```
 
 具体配置项自行 Google
-举例说明两个吧
+
+**eg:**
 
 - manifest_version Manifest Version 3 的缩写，它是 Chrome 扩展平台的最新迭代。它分享了引入 Manifest V3 的背景和原因以及平台未来的愿景（官方推荐）
 - action 即插件在浏览器上的弹层
@@ -68,7 +79,7 @@ export default manifest;
 
 # 结尾
 
-本项目完全开源，项目地址 <a href="https://github.com/ligdy7/bookmarks-quick-search" target="_blank">https://github.com/ligdy7/bookmarks-quick-search</a>
+本项目完全开源 <a href="https://github.com/ligdy7/bookmarks-quick-search" target="_blank">github</a>
 
 <!-- 你可在谷歌商店下载 <a href="https://github.com/ligdy7/bookmarks-quick-search" target="_blank">https://github.com/ligdy7/bookmarks-quick-search</a> -->
 
