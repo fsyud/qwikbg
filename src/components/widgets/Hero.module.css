@@ -1,5 +1,5 @@
 .container {
-  background: linear-gradient(to top right, blue, pink);
+  background: linear-gradient(to top right, #2af598, #009efd);
   background-size: 400% 400%;
   animation: backgroundAnimation 10s ease-in-out infinite;
 }
