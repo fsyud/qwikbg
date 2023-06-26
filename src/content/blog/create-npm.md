@@ -2,7 +2,7 @@
 publishDate: 2023-05-12
 title: 用 TypeScript 和 rollup.js 创建一个 npm 包模板
 excerpt: 创建一个npm仓库，快速构建个人或开源仓库
-image: /images/blog/b-2.awebp
+image: /images/blog/b-2.png
 tags:
   - markdown
   - blog

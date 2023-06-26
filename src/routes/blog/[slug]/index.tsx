@@ -48,12 +48,10 @@ export default component$(() => {
               {post.image ? (
                 <Image
                   src={post.image}
-                  class="mx-auto mt-4 mb-6 max-w-full bg-gray-400 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
+                  class="mx-auto mt-4 mb-6 max-w-full bg-gray-200 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
                   sizes="(max-width: 900px) 400px, 900px"
                   alt={post.excerpt}
                   loading="eager"
-                  width={900}
-                  height={480}
                 />
               ) : (
                 <div class="mx-auto max-w-3xl px-4 sm:px-6">
