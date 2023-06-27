@@ -32,12 +32,12 @@ export default component$(() => {
             <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.image ? "md:grid-cols-2" : ""}`}>
               {post.image && (
                 <a class="relative block group" href={`/blog/${post.slug}`}>
-                  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden bg-gray-200 dark:bg-slate-700 rounded shadow-lg">
+                  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden bg-gray-100 dark:bg-slate-700 rounded">
                     {post.image && (
                       // eslint-disable-next-line qwik/jsx-img
                       <Image
                         src={post.image}
-                        class="absolute inset-0 object-cover w-full mb-6 rounded shadow-lg"
+                        class="absolute inset-0 object-cover w-full mb-6 rounded"
                         sizes="(max-width: 900px) 400px, 900px"
                         alt={post.title}
                         width={400}
@@ -57,7 +57,7 @@ export default component$(() => {
                     </a>
                   </h2>
                 </header>
-                <p class="text-md sm:text-lg flex-grow">{post.excerpt || post.description}</p>
+                <p class="text-md sm:text-lg flex-grow ">{post.excerpt || post.description}</p>
                 <footer class="mt-4">
                   <div>
                     <span class="text-gray-500 dark:text-slate-400">

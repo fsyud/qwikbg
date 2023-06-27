@@ -12,36 +12,15 @@ export default component$(() => {
               <h1 class="text-3xl md:text-[3.48rem] font-bold leading-tighter tracking-tighter mb-4 font-heading px-4 md:px-0">
                 <span class="dark:text-[#039de1] font-mono">Hello World!</span>
               </h1>
-              {/* <div class="max-w-3xl mx-auto">
+              <div class="max-w-3xl mx-auto">
                 <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
-                  <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
-                    Qwind
-                  </span>{" "}
-                  is a production ready template to start your new website using <em>Qwik</em> + <em>Tailwind CSS</em>.
-                  It has been designed following Best Practices, SEO, Accessibility,{" "}
-                  <span class="inline md:hidden">...</span>
-                  <span class="hidden md:inline">
-                    Dark Mode, Great Page Speed, image optimization, sitemap generation and more.
-                  </span>
+                  When tomorrow turns in today, yesterday, and someday that no
+                  moreimportant in your memory, we suddenly realize that we r
+                  pushed forwardby time. This is not a train in still in which
+                  you may feel forwardwhen another train goes by. It is the
+                  truth that we've all grown up.And we become different.
                 </p>
-                <div class="flex flex-col flex-nowrap gap-4 m-auto max-w-xs sm:flex-row sm:justify-center sm:max-w-md lg:justify-start lg:m-0 lg:max-w-3xl">
-                  <div class="flex w-full sm:w-auto">
-                    <a
-                      class="btn btn-primary sm:mb-0 w-full"
-                      href="https://github.com/ligdy7/qwikbg"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      GitHub
-                    </a>
-                  </div>
-                  <div class="flex w-full sm:w-auto">
-                    <button class="btn w-full bg-gray-50 dark:bg-transparent">
-                      更多
-                    </button>
-                  </div>
-                </div>
-              </div> */}
+              </div>
             </>
           </div>
           <div>

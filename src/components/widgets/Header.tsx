@@ -4,7 +4,6 @@ import { useContent } from "@builder.io/qwik-city";
 import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
-import { IconTwitter } from "~/components/icons/IconTwitter";
 import { IconGithub } from "~/components/icons/IconGithub";
 
 export default component$(() => {
@@ -15,7 +14,6 @@ export default component$(() => {
   const { menu } = useContent();
 
   const social = [
-    { label: "Twitter", icon: IconTwitter, href: "https://twitter.com/ligdyu" },
     {
       label: "Github",
       icon: IconGithub,
