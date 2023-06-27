@@ -5,7 +5,7 @@ import styles from "./Hero.module.css";
 export default component$(() => {
   return (
     <section class={[styles.container, "dark:bg-none", "mt-[-65px]"]}>
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:flex h-screen pt-[72px]">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:flex h-screen pt-[72px]">
         <div class="py-12 flex flex-row md:py-20 2xl:min-h-0 lg:flex lg:gap-8 lg:items-center lg:py-16">
           <div class="mx-auto text-center basis-1/2 lg:text-left md:pb-16 pb-12 lg:pb-0">
             <>
@@ -24,7 +24,7 @@ export default component$(() => {
                     Dark Mode, Great Page Speed, image optimization, sitemap generation and more.
                   </span>
                 </p>
-                <div class="flex flex-col flex-nowrap gap-4 m-auto max-w-xs sm:flex-row sm:justify-center sm:max-w-md lg:justify-start lg:m-0 lg:max-w-7xl">
+                <div class="flex flex-col flex-nowrap gap-4 m-auto max-w-xs sm:flex-row sm:justify-center sm:max-w-md lg:justify-start lg:m-0 lg:max-w-4xl">
                   <div class="flex w-full sm:w-auto">
                     <a
                       class="btn btn-primary sm:mb-0 w-full"
@@ -45,7 +45,7 @@ export default component$(() => {
             </>
           </div>
           <div class="basis-1/2">
-            <div class="relative m-auto max-w-5xl">
+            <div class="relative m-auto max-w-4xl">
               <Image
                 src="/images/bg.jpg"
                 class="mx-auto mt-4 mb-6 max-w-full rounded-3xl"
