@@ -10,10 +10,10 @@ export default component$(() => {
           <div class="mx-auto text-center lg:text-left md:pb-16 pb-12 lg:pb-0">
             <>
               <h1 class="text-3xl md:text-[3.48rem] font-bold leading-tighter tracking-tighter mb-4 font-heading px-4 md:px-0">
-                <span class="dark:text-[#039de1] font-mono">Hello World!</span>
+                <span class="dark:text-[#039de1] font-mono">Hi~</span>
               </h1>
               <div class="max-w-3xl mx-auto">
-                <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
+                <p class="text-xl text-gray-600 mt-8 dark:text-slate-400">
                   When tomorrow turns in today, yesterday, and someday that no
                   moreimportant in your memory, we suddenly realize that we r
                   pushed forwardby time. This is not a train in still in which
