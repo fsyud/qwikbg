@@ -53,7 +53,7 @@ export default component$(() => {
             aria-label="Main navigation"
           >
             {menu && menu.items ? (
-              <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl">
+              <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-base">
                 {menu.items?.map((item, key) => (
                   <li key={key} class={`${item.items ? "dropdown" : ""}`}>
                     {item.href ? (
@@ -70,7 +70,7 @@ export default component$(() => {
                     )}
 
                     {item.items ? (
-                      <ul class="dropdown-menu rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white md:min-w-[200px] dark:md:bg-slate-800 drop-shadow-xl">
+                      <ul class="dropdown-menu rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white md:min-w-[120px] dark:md:bg-slate-800 drop-shadow-xl">
                         {item.items.map((item2, key2) => (
                           <li key={key2}>
                             <a
@@ -108,13 +108,6 @@ export default component$(() => {
               </ul>
             </div>
             <ToggleTheme iconClass="w-6 h-6" />
-            {/* <a
-              href="https://github.com/onwidget/qwind"
-              aria-label="Qwind Github"
-              class="ml-3 btn btn-primary w-full h-10 px-5 shadow-none text-base"
-            >
-              Download
-            </a> */}
           </div>
         </div>
       </div>

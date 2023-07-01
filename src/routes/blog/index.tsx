@@ -21,24 +21,19 @@ export default component$(() => {
 
   return (
     <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-3xl">
-      <header>
-        <h1 class="text-center text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-8 md:mb-16 font-heading">
-          Blog
-        </h1>
-      </header>
       <ul>
         {store.posts.map((post: any) => (
           <li key={post.slug} class="mb-10 md:mb-16">
             <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.image ? "md:grid-cols-2" : ""}`}>
               {post.image && (
                 <a class="relative block group" href={`/blog/${post.slug}`}>
-                  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden bg-gray-100 dark:bg-slate-700 rounded">
+                  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] w-[400px] overflow-hidden bg-gray-100 dark:bg-slate-700 rounded">
                     {post.image && (
                       // eslint-disable-next-line qwik/jsx-img
                       <Image
                         src={post.image}
                         class="absolute inset-0 object-cover w-full mb-6 rounded"
-                        sizes="(max-width: 900px) 400px, 900px"
+                        sizes="(max-width: 600px) 400px, 600px"
                         alt={post.title}
                         width={400}
                       />
@@ -48,7 +43,7 @@ export default component$(() => {
               )}
               <div>
                 <header>
-                  <h2 class="text-xl sm:text-2xl font-bold leading-snug mb-2 font-heading">
+                  <h2 class="text-xl font-bold leading-snug mb-2 font-heading">
                     <a
                       class="hover:text-primary-600 underline underline-offset-4 decoration-1 decoration-dotted transition ease-in duration-200"
                       href={`/blog/${post.slug}`}
