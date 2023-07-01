@@ -5,6 +5,7 @@ import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import { IconGithub } from "~/components/icons/IconGithub";
+import { CibRedditAlt } from "~/components/icons/IconReddit"
 
 export default component$(() => {
   const store = useStore({
@@ -14,6 +15,11 @@ export default component$(() => {
   const { menu } = useContent();
 
   const social = [
+    {
+      label: "Reddit",
+      icon: CibRedditAlt,
+      href: "https://www.reddit.com/user/fsyud",
+    },
     {
       label: "Github",
       icon: IconGithub,
