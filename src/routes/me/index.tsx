@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { Image } from "@unpic/qwik";
 import { SITE } from "~/config.mjs";
 
 export default component$(() => {
@@ -19,8 +20,7 @@ export default component$(() => {
             崇尚{" "}
             <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2 text-[#039de1]">
               自由
-            </span>
-            {" "}
+            </span>{" "}
             的生活，喜欢{" "}
             <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2 text-[#039de1]">
               骑行
@@ -38,6 +38,28 @@ export default component$(() => {
             </span>{" "}
             构建完成
           </div>
+        </div>
+
+        <div class="mt-2">
+          <p class="underline decoration-sky-500">基于 <a href="https://pagespeed.web.dev/" target="_blank">google pagespeed</a> 测试</p>
+          <Image
+            src="/public/images/photo/s1.png"
+            class="mx-auto mt-4 mb-6 max-w-sm bg-gray-100 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
+            sizes="(max-width: 400) 200px, 400px"
+            loading="eager"
+          />
+          <Image
+            src="/public/images/photo/s2.png"
+            class="mx-auto mt-4 mb-6 max-w-sm bg-gray-100 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
+            sizes="(max-width: 400) 200px, 400px"
+            loading="eager"
+          />
+          <Image
+            src="/public/images/photo/s3.png"
+            class="mx-auto mt-4 mb-6 max-w-sm bg-gray-100 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
+            sizes="(max-width: 400) 200px, 400px"
+            loading="eager"
+          />
         </div>
       </div>
     </section>
