@@ -43,19 +43,19 @@ export default component$(() => {
         <div class="mt-2">
           <p class="underline decoration-sky-500">基于 <a href="https://pagespeed.web.dev/" target="_blank">google pagespeed</a> 测试</p>
           <Image
-            src="/public/images/photo/s1.png"
+            src="/src/assets/images/s1.png"
             class="mx-auto mt-4 mb-6 max-w-sm bg-gray-100 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
             sizes="(max-width: 400) 200px, 400px"
             loading="eager"
           />
           <Image
-            src="/public/images/photo/s2.png"
+            src="/src/assets/images/s2.png"
             class="mx-auto mt-4 mb-6 max-w-sm bg-gray-100 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
             sizes="(max-width: 400) 200px, 400px"
             loading="eager"
           />
           <Image
-            src="/public/images/photo/s3.png"
+            src="/src/assets/images/s3.png"
             class="mx-auto mt-4 mb-6 max-w-sm bg-gray-100 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
             sizes="(max-width: 400) 200px, 400px"
             loading="eager"
