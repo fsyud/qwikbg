@@ -1,0 +1,22 @@
+.brutal-card {
+  border-radius: 0.5rem;
+  border: 3px solid black;
+  filter: drop-shadow(7px 7px 0 rgb(0 0 0 / 1));
+  transition: all;
+  padding: 1rem;
+  transition-duration: 0.5s;
+  animation: ease-in-out;
+}
+
+.brutal-card:hover {
+  filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
+}
+
+.brutal-btn {
+  filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
+  background-color: white;
+}
+
+a.brutal-btn:hover {
+  filter: drop-shadow(3px 3px 0 rgb(0 0 0 / 1));
+}

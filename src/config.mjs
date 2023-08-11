@@ -2,7 +2,7 @@ export const SITE = {
   name: "fsyud",
 
   title:
-    "Free Soul",
+    "Fsyud",
   description:
     "风与灵魂一样，来去自由，浩浩荡荡，无阻无碍，席卷天地。",
 
