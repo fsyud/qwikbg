@@ -7,3 +7,19 @@
 - ✅ Integration with **Tailwind CSS** supporting **Dark mode**.
 - ✅ **Production-ready** scores in [Lighthouse](https://web.dev/measure/) and [PageSpeed Insights](https://pagespeed.web.dev/) reports.
 - ✅ **Image optimization** and **Font optimization**.
+
+
+## menu
+
+```
+# Menu
+
+## Pages
+
+<!-- - [About me](/me) -->
+
+## [Blog](/blog)
+
+## [About](/me)
+
+```

@@ -10,12 +10,12 @@ const builtWith = [
 
 export default component$(() => {
   return (
-    <main class="bg-gradient-to-r from-cyan-500 to-blue-500 dark:bg-none p-6 mt-[-145px]">
+    <main class="dark:bg-none p-6 mt-[-145px]">
       <section class="grid  md:grid-cols-8 gap-8 mt-4 h-screen pt-[130px]">
         <div class="col-span-4">
           <Card>
             <div class="flex flex-col justify-between items-start gap-4">
-              <p class="text-white mt-4 outfit text-2xl md:text-5xl lg:text-7xl">
+              <p class=" mt-4 outfit text-2xl md:text-5xl lg:text-7xl">
                 a engineer
               </p>
               <Button target={"_self"} href="/blog/">
@@ -40,7 +40,7 @@ export default component$(() => {
         </div>
         <div class="col-span-2">
           <Card>
-            <h2 class="text-white text-2xl md:text-4xl lg:text-6xl mb-4 dm-serif">
+            <h2 class="text-2xl md:text-4xl lg:text-6xl mb-4 dm-serif">
               About this blog
             </h2>
             <p class="poppins">

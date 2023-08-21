@@ -2,6 +2,6 @@
 
 ## Pages
 
-- [About me](/me)
-
 ## [Blog](/blog)
+
+## [About](/me)
