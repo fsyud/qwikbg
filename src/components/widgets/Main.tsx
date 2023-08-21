@@ -39,7 +39,7 @@ export default component$(() => {
           </Card>
         </div>
         <div class="col-span-2">
-          <Card color="brutal-card-none">
+          <Card>
             <h2 class="text-white text-2xl md:text-4xl lg:text-6xl mb-4 dm-serif">
               About this blog
             </h2>

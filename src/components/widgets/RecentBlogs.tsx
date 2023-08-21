@@ -20,7 +20,7 @@ export default component$(() => {
 
   return (
     <section class="p-6">
-      <Card color="brutal-card-none">
+      <Card>
         <div class="flex justify-between items-start">
           <h2 class="mt-4 outfit text-2xl md:text-3xl lg:text-5xl">
             Recent
