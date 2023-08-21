@@ -8,10 +8,8 @@ interface Props {
 export default component$((props: Props) => {
   useStylesScoped$(styles);
 
-  console.log(props);
-
   return (
-    <div class="brutal-card">
+    <div class={`brutal-card ${props.color} dark:bg-gray-900`}>
       <Slot />
     </div>
   );

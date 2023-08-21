@@ -14,7 +14,7 @@ export default component$((props: Props) => {
     <a
       href={props.href}
       target={props.target || "_self"}
-      class="brutal-btn sanchez inline-block py-2 px-4 border-2 border-black transition-all ease-in-out duration-150"
+      class="brutal-btn sanchez inline-block py-2 px-4 border-2 border-black transition-all ease-in-out duration-150 dark:text-black"
     >
       <Slot />
     </a>

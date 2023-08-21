@@ -5,9 +5,8 @@ excerpt: 创建一个npm仓库，快速构建个人或开源仓库
 image: /images/blog/a-1.png
 readingTime: 8
 tags:
-  - markdown
-  - blog
-  - extension
+  - npm
+  - github
 ---
 
 ## 设置模板项目

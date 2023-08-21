@@ -1,7 +1,6 @@
 import { component$, useStore, useTask$ } from "@builder.io/qwik";
 import { isServer } from "@builder.io/qwik/build";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Image } from "@unpic/qwik";
 
 import type { Post } from "~/types";
 import { fetchPosts } from "~/utils/posts";
@@ -30,7 +29,7 @@ export default component$(() => {
                   <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden bg-gray-100 dark:bg-slate-700 rounded">
                     {post.image && (
                       // eslint-disable-next-line qwik/jsx-img
-                      <Image
+                      <img
                         src={post.image}
                         class="absolute inset-0 object-cover w-full mb-6 rounded"
                         sizes="(max-width: 600px) 400px, 600px"
@@ -79,7 +78,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Blog",
+  title: "fsyud | Blog",
   meta: [
     {
       name: "description",
