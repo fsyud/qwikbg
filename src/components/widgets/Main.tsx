@@ -10,8 +10,8 @@ const builtWith = [
 
 export default component$(() => {
   return (
-    <main class="bg-gradient-to-r from-cyan-500 to-blue-500 dark:bg-none p-6">
-      <section class="grid  md:grid-cols-8 gap-8 mt-4">
+    <main class="bg-gradient-to-r from-cyan-500 to-blue-500 dark:bg-none p-6 mt-[-145px]">
+      <section class="grid  md:grid-cols-8 gap-8 mt-4 h-screen pt-[130px]">
         <div class="col-span-4">
           <Card>
             <div class="flex flex-col justify-between items-start gap-4">

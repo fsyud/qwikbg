@@ -1,14 +1,8 @@
 .brutal-card {
   border-radius: 0.5rem;
   border: 3px solid black;
-  transition: all;
   padding: 1rem;
-  transition: all;
-  transition-duration: 0.5s;
-  animation: ease-in-out;
 }
-
-
 
 .brutal-btn {
   background-color: white;
