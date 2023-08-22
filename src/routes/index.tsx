@@ -7,9 +7,9 @@ import { SITE } from "~/config.mjs";
 
 export default component$(() => {
   return (
-    <>
+    <div class="mx-auto max-w-6xl">
       <Main />
-    </>
+    </div>
   );
 });
 

@@ -70,6 +70,7 @@ export const findPostBySlug = async (slug: string): Promise<Post | null> => {
       tags = [],
       category,
       author,
+      readingTime,
       draft = false,
       metadata = {},
     } = data;
@@ -96,7 +97,8 @@ export const findPostBySlug = async (slug: string): Promise<Post | null> => {
 
       metadata,
 
-      content
+      content,
+      readingTime
     };
   } catch (e) {
     /* empty */

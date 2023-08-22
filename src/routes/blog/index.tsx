@@ -27,12 +27,11 @@ export default component$(() => {
             <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.image ? "md:grid-cols-2" : ""}`}>
               {post.image && (
                 <a class="relative block group" href={`/blog/${post.slug}`}>
-                  <div class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden bg-gray-100 dark:bg-slate-700 rounded">
+                  <div class="relative h-0 pb-[50%] overflow-hidden bg-gray-100 dark:bg-slate-700 rounded">
                     {post.image && (
                       <Image
                         src={post.image}
                         class="absolute inset-0 object-cover w-full mb-6 rounded"
-                        sizes="(max-width: 600px) 400px, 600px"
                         alt={post.title}
                         width={400}
                       />
@@ -63,7 +62,7 @@ export default component$(() => {
                           timeZone: "UTC",
                         })}
                       </time>
-                      {/* ~{' '}{Math.ceil(post.readingTime)} min read */}
+                      ~{' '}{Math.ceil(post.readingTime)} min read
                     </span>
                   </div>
                   <div class="mt-4">{/* <PostTags tags={post.tags} /> */}</div>
