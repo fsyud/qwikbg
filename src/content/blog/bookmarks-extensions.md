@@ -14,7 +14,7 @@ tags:
 
 书签太多,再次查找书签的时候要经历点击书签查找文件再去慢慢搜索。或者在浏览器里进入书签管理器，进行搜索。定制属于个人独一无二的浏览器插件，在这个模版尽情的去尝试吧！
 
-**模板提供丰富的api等待您去开发**
+**模板提供丰富的 api 等待您去开发**
 
 - background
 - content
@@ -23,8 +23,6 @@ tags:
 - options
 - panel
 - popup
-
-**后续还会加上便签的功能，请期待！**
 
 # 设计
 
@@ -66,8 +64,6 @@ const manifest: chrome.runtime.ManifestV3 = {
 export default manifest;
 ```
 
-具体配置项自行 Google
-
 **eg:**
 
 - manifest_version Manifest Version 3 的缩写，它是 Chrome 扩展平台的最新迭代。它分享了引入 Manifest V3 的背景和原因以及平台未来的愿景（官方推荐）
@@ -80,13 +76,7 @@ export default manifest;
 
 # 结尾
 
-本项目完全开源 <a href="https://github.com/ligdy7/bookmarks-quick-search" target="_blank">github</a>
-
-<!-- 你可在谷歌商店下载 <a href="https://github.com/ligdy7/bookmarks-quick-search" target="_blank">https://github.com/ligdy7/bookmarks-quick-search</a> -->
-
-有问题可随时在联系作者
-
-**未完待续。。。**
+本项目完全开源 <a href="https://github.com/ligdy7/bookmarks-quick-search" target="_blank">github</a> 你可在谷歌商店下载 
 
 > 转载或者引用本文内容请注明来源及原作者
 
