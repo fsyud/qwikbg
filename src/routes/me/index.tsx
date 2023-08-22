@@ -4,7 +4,6 @@ import { Image } from "@unpic/qwik";
 import { SITE } from "~/config.mjs";
 import s1 from "~/assets/images/s1.png";
 import s2 from "~/assets/images/s2.png";
-import s3 from "~/assets/images/s3.png";
 
 export default component$(() => {
   return (
@@ -18,7 +17,7 @@ export default component$(() => {
         </div>
 
         <div class="mt-8">
-          <h2 class="font-bold text-xl mb-3">关于我</h2>
+          <h2 class="font-bold text-xl mb-3">关于我 🛸</h2>
           <div class="text-gray-600 dark:text-slate-400 text-xl">
             崇尚{" "}
             <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2 text-[#039de1]">
@@ -30,6 +29,10 @@ export default component$(() => {
             </span>
             。
           </div>
+        </div>
+
+        <div class="text-gray-800 dark:text-slate-400 text-xl">
+          ✉️：<a href="mailto: fsyud7@163.com" class="underline">send email</a>
         </div>
 
         <div class="mt-8">
@@ -44,7 +47,13 @@ export default component$(() => {
         </div>
 
         <div class="mt-2">
-          <p class="underline decoration-sky-500">基于 <a href="https://pagespeed.web.dev/" target="_blank">google pagespeed</a> 测试</p>
+          <p class="underline decoration-sky-500">
+            基于{" "}
+            <a href="https://pagespeed.web.dev/" target="_blank">
+              google pagespeed
+            </a>{" "}
+            测试
+          </p>
           <Image
             src={s1}
             class="mx-auto mt-4 mb-6 max-w-sm bg-gray-100 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
@@ -53,12 +62,6 @@ export default component$(() => {
           />
           <Image
             src={s2}
-            class="mx-auto mt-4 mb-6 max-w-sm bg-gray-100 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
-            sizes="(max-width: 400) 200px, 400px"
-            loading="eager"
-          />
-          <Image
-            src={s3}
             class="mx-auto mt-4 mb-6 max-w-sm bg-gray-100 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
             sizes="(max-width: 400) 200px, 400px"
             loading="eager"
