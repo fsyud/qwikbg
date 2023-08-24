@@ -20,8 +20,8 @@
     "qwik": "qwik"
   },
   "dependencies": {
-    "@builder.io/qwik": "1.2.6",
-    "@builder.io/qwik-city": "1.2.6",
+    "@builder.io/qwik": "1.2.8",
+    "@builder.io/qwik-city": "1.2.8",
     "@fontsource-variable/inter": "^5.0.2",
     "@unpic/qwik": "^0.0.23",
     "gray-matter": "^4.0.3",
