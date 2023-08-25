@@ -15,7 +15,8 @@ const load = () => {
         const slug = filename.replace(".md", "");
         return await findPostBySlug(slug);
       })
-    // .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
+      // @ts-ignore
+    .sort((post1, post2) => (post1.publishDate > post2.publishDate ? 1 : -1))
   );
 
   return posts;
@@ -74,7 +75,7 @@ export const findPostBySlug = async (slug: string): Promise<Post | null> => {
       draft = false,
       metadata = {},
     } = data;
-
+    
     const publishDate = new Date(rawPublishDate);
     const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
 

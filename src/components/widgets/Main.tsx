@@ -24,8 +24,6 @@ export default component$(() => {
     }
   });
 
-  console.log(store.posts)
-
   return (
     <main class="dark:bg-none p-6 mt-[-145px]">
       <section class="grid  md:grid-cols-8 gap-8 mt-4 pt-[130px]">
