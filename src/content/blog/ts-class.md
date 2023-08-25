@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-05-12
+publishDate: 2023-08-25
 title: typescript类
 excerpt: 传统的JavaScript程序使用函数和基于原型的继承来创建可重用的组件，但对于熟悉使用面向对象方式的程序员来讲就有些棘手，因为他们用的是基于类的继承并且对象是由类构建出来的。
 image: /images/blog/a-1.png
