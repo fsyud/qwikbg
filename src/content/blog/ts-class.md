@@ -7,9 +7,6 @@ readingTime: 10
 tags:
   - typescript
 ---
-
-![adrww41gv8k_vuxeswr0-xkl57y](https://user-images.githubusercontent.com/26371465/132792874-ae4a1901-88cb-4816-b487-15a12c3df5e1.png)
-
 # 类
 
 ## 介绍
