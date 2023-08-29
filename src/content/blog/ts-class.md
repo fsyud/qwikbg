@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-08-25
-title: typescript类
+title: typescript类详解
 excerpt: ts类与js关系
 image: /images/blog/a-1.png
 readingTime: 10
