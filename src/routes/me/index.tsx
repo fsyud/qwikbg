@@ -7,8 +7,8 @@ import s2 from "~/assets/images/s2.png";
 
 export default component$(() => {
   return (
-    <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-3xl">
-      <div class="mt-20 flex flex-col justify-center relative">
+    <section class="px-6 sm:px-6 sm:pb-16 lg:pb-20 mx-auto max-w-3xl">
+      <div class="pt-12 flex flex-col justify-center relative">
         <div class="text-4xl md:text-justify space-x-2 leading-[3rem]">
           <span>HEY!</span>
           <h1 class="inline font-bold">

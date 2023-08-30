@@ -20,10 +20,10 @@ export default component$(() => {
   });
 
   return (
-    <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-3xl">
+    <section class="px-6 sm:px-6 py-12 mx-auto max-w-3xl">
       <ul>
         {store.posts.map((post: any) => (
-          <li key={post.slug} class="mb-10 md:mb-16">
+          <li key={post.slug} class="mb-6">
             <article class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 ${post.image ? "md:grid-cols-2" : ""}`}>
               {post.image && (
                 <a class="relative block group" href={`/blog/${post.slug}`}>
